@@ -1,0 +1,6 @@
+# tooling
+.gradle
+.idea
+
+# build
+build
