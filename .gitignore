@@ -6,5 +6,8 @@
 *.iws
 
 # build
-build
-mainGeneratedDataTemplate
+build/
+mainGeneratedDataTemplate/
+mainGeneratedRest/
+idl/
+snapshot/
