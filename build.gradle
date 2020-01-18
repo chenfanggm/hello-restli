@@ -1,11 +1,11 @@
-repositories {
-  mavenLocal()
-  mavenCentral()
-}
-
 buildscript {
+  repositories {
+    mavenLocal()
+    mavenCentral()
+  }
+
   dependencies {
-    classpath 'com.linkedin.pegasus:gradle-plugins:11.0.17'
+    classpath 'com.linkedin.pegasus:gradle-plugins:27.7.18'
   }
 }
 
@@ -14,6 +14,11 @@ allprojects {
 }
 
 subprojects {
+  repositories {
+    mavenLocal()
+    mavenCentral()
+  }
+
   apply plugin: 'maven'
 
   afterEvaluate {
@@ -27,7 +32,7 @@ subprojects {
   }
 }
 
-final pegasusVersion = '15.0.3'
+final pegasusVersion = '27.7.18'
 ext.spec = [
     'product' : [
         'pegasus' : [

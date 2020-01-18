@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "version": 30,
+  "name": "Fortune",
+  "namespace": "com.aqua.fortune",
+  "doc": "A comment object",
+  "fields": [
+    {
+      "name": "id",
+      "type": "long"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+namespace com.aqua.fortune
+
+record Hello {
+   name: string
+   message: optional string
+}
