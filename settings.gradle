@@ -8,3 +8,6 @@
  */
 
 rootProject.name = 'hello-restli'
+include 'api'
+include 'client'
+include 'server'
