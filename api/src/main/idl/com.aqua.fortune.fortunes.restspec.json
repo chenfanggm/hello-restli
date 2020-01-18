@@ -1,0 +1,20 @@
+{
+  "name" : "fortunes",
+  "namespace" : "com.aqua.fortune",
+  "path" : "/fortunes",
+  "schema" : "com.aqua.fortune.Fortune",
+  "doc" : "generated from: com.aqua.fortune.impl.FortuneResource",
+  "collection" : {
+    "identifier" : {
+      "name" : "fortunesId",
+      "type" : "string"
+    },
+    "supports" : [ "get" ],
+    "methods" : [ {
+      "method" : "get"
+    } ],
+    "entity" : {
+      "path" : "/fortunes/{fortunesId}"
+    }
+  }
+}

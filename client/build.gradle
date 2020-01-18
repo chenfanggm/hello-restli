@@ -1,0 +1,13 @@
+plugins {
+  id 'java'
+}
+
+dependencies {
+  compile project(path: ':api', configuration: 'restClient')
+  compile spec.product.pegasus.r2Netty
+}
+
+task startClient(type: JavaExec) {
+  main = 'com.aqua.fortune.RestliFortuneClient'
+  classpath = sourceSets.main.runtimeClasspath
+}
